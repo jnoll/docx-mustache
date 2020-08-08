@@ -1,0 +1,76 @@
+module_code: TBD
+long_title: Advanced Programming Paradigms
+department: Computer Science
+credits: 15
+first_offered: SEP-22
+level: 6
+location: UH Hatfield
+academic_session: 2022
+version: 1
+aims:                           # list
+  - Do just about nothing.
+  - implement solutions to practical problems using advanced programming paradigms.
+outcomes:
+    knowledge:                  # list
+      - summarize the difference between functional and imperative programming;
+      - state how recursive solutions differ from iterative solutions;
+      - list advanced paradigms that are implemented in mainstream programming languages like Python and Java;
+      - explain the advantages of strong typing;
+      - identify suitable problems for logic programming.
+    skills:                     # list
+      - implement tail-recursive solutions to classic programming problems, such as computing Fibonacci numbers;
+      - use maps and folds to transform and reduce lists;
+      - solve problems by exploiting lazy evaluation;
+      - use Currying to simplify programs;
+      - apply pattern matching to express solutions;
+      - solve inference problems using declarative programming.
+delivery_modes:
+    delivery_mode:
+      classroom: ✓
+      distance: ✓
+      flexible:
+      study_abroad:
+      work_based: 
+    activities:                 # enter hours of each
+      lectures:                10
+      tutorials:                0
+      practicals:              20
+      online_activities:        0
+      external_activities:      0
+      online_directed_study:    0
+      other_directed_study:     0
+      self_independent_study: 120
+      placement:                0
+      year_abroad:              0
+      total:                  150
+module_content:
+    for_publication: |       # description for publication; 150 words
+        This module exposes students to the wide range of programming concepts beyond simple procedural programming using conditionals, loops, functions, and objects.  Concepts will be illustrated using languages such as Haskell, Scheme, and Prolog, but examples and exercises will focus on solving practical problems.
+
+    further_details:
+      overview: |       # details supporting LOs; list indicative topics. 250 words.  
+        This module is based on a set of practical examples and exercises that show how to apply advanced programming paradigms to solve problems, and compare those solutions to the typical approach taken in Python, Java, or C.
+      topics: 
+        - Anonymous functions.
+        - Tail call optimization, continuation passing, and tail recursive functions.
+        - Higher-order functions.
+        - Lazy evaluation.
+        - Strong types and type inference.
+        - Currying
+        - Pattern matching.
+        - Declarative programming.
+assessment:
+    type:                       # list
+      - type: Coursework
+        weighting: 100          # % of total grade
+        pass_mark: 40
+    compulsory_info: |          # Identify (i) whether the module is pass on aggregate or whether a pass in individual components is required (and if so, which components), (ii) any pass/fail elements, and (iii) details of any attendance requirements
+      Pass on aggregate.
+
+pre_reqs: None
+module_board:
+programmes:
+previous_module:
+comments:
+dely_language: English
+further_information: | # Please provide further information if required: 

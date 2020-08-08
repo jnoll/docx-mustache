@@ -1,0 +1,19 @@
+{
+  "name": "docx-mustache",
+  "version": "1.0.0",
+  "description": "Populate docx template from yaml specification.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Noll",
+  "license": "ISC",
+  "dependencies": {
+    "docx-templates": "^4.3.0",
+    "fs": "0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "node": "^14.7.0",
+    "yamljs": "^0.3.0",
+    "yargs": "^15.4.1"
+  }
+}
