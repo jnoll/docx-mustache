@@ -58,7 +58,7 @@ module_content:
         practical problems.
 
     further_details:
-      overview:        # details supporting LOs; list indicative topics. 250 words.  
+      overview: >       # details supporting LOs; list indicative topics. 250 words.  
         This module is based on a set of practical examples and
         exercises that show how to apply advanced programming
         paradigms to solve problems, and compare those solutions to
@@ -77,8 +77,7 @@ assessment:
       - type: Coursework
         weighting: 100          # % of total grade
         pass_mark: 40
-    compulsory_info: |          # Identify (i) whether the module is pass on aggregate or whether a pass in individual components is required (and if so, which components), (ii) any pass/fail elements, and (iii) details of any attendance requirements
-      Pass on aggregate.
+    compulsory_info: >          # Identify (i) whether the module is pass on aggregate or whether a pass in individual components is required (and if so, which components), (ii) any pass/fail elements, and (iii) details of any attendance requirements Pass on aggregate.
 
 pre_reqs: None
 module_board:
