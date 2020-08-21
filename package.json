@@ -13,7 +13,7 @@
     "fs": "0.0.1-security",
     "isomorphic-fetch": "^2.2.1",
     "node": "^14.7.0",
-    "yamljs": "^0.3.0",
+    "yaml": "^1.10.0",
     "yargs": "^15.4.1"
   }
 }

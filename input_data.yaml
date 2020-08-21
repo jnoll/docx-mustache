@@ -9,7 +9,11 @@ academic_session: 2022
 version: 1
 aims:                           # list
   - Do just about nothing.
-  - implement solutions to practical problems using advanced programming paradigms.
+  - implement
+    solutions to
+    practical problems
+    using advanced
+    programming paradigms.
 outcomes:
     knowledge:                  # list
       - summarize the difference between functional and imperative programming;
@@ -44,12 +48,21 @@ delivery_modes:
       year_abroad:              0
       total:                  150
 module_content:
-    for_publication: |       # description for publication; 150 words
-        This module exposes students to the wide range of programming concepts beyond simple procedural programming using conditionals, loops, functions, and objects.  Concepts will be illustrated using languages such as Haskell, Scheme, and Prolog, but examples and exercises will focus on solving practical problems.
+    # description for publication; 150 words
+    for_publication:
+        This module exposes students to the wide range of programming
+        concepts beyond simple procedural programming using
+        conditionals, loops, functions, and objects.  Concepts will be
+        illustrated using languages such as Haskell, Scheme, and
+        Prolog, but examples and exercises will focus on solving
+        practical problems.
 
     further_details:
-      overview: |       # details supporting LOs; list indicative topics. 250 words.  
-        This module is based on a set of practical examples and exercises that show how to apply advanced programming paradigms to solve problems, and compare those solutions to the typical approach taken in Python, Java, or C.
+      overview:        # details supporting LOs; list indicative topics. 250 words.  
+        This module is based on a set of practical examples and
+        exercises that show how to apply advanced programming
+        paradigms to solve problems, and compare those solutions to
+        the typical approach taken in Python, Java, or C.
       topics: 
         - Anonymous functions.
         - Tail call optimization, continuation passing, and tail recursive functions.

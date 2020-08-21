@@ -1,5 +1,6 @@
 var docx = require('docx-templates').default;
-var YAML = require('yamljs');
+//var YAML = require('yamljs');
+var YAML = require('yaml');
 var yargs = require('yargs');	// command line argument parsing
 var stdin = process.stdin;
 var inputChunks = [];
@@ -26,12 +27,11 @@ const argv = yargs
 
 var cont = fs.readFileSync(argv.yaml);
 console.log(cont.toString());
-var inputJSON = YAML.parse(cont.toString());
+var inputJSON = YAML.parse(cont.toString(), {merge: true});
+
 
 var template = fs.readFileSync(argv.template);
-console.log(inputJSON);
-
 docx({template
     , data: inputJSON
-    , cmdDelimiter: ['{{', '}}']
+    , cmdDelimiter: ['{-', '-}']
     }).then(result => fs.writeFileSync(argv.output, result));
